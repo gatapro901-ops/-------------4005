@@ -1,0 +1,1 @@
+const password = 'your_password';const loginForm = document.getElementById('login-form');loginForm.addEventListener('submit', (e) => {e.preventDefault();const inputPassword = document.getElementById('password').value;if (inputPassword === password) {location.href = 'dashboard.html';} else {alert('كلمة المرور خاطئة');}});
